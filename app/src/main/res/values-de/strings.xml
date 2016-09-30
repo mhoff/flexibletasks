@@ -6,7 +6,6 @@
     <string name="add_task_dialog_cancel">Abbrechen</string>
     <string name="add_task_dialog_confirm">Annehmen</string>
     <string name="add_task_dialog_title">Neue Aufgabe</string>
-    <string name="local_service_started"></string>
     <string name="period_picker_value_hint">" "</string>
     <string name="postpone_task_dialog_cancel">Abbrechen</string>
     <string name="postpone_task_dialog_confirm">Annehmen</string>
