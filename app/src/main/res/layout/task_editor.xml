@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task_editor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:layout_row="0"
+        android:text="@string/task_editor_label_label"/>
+
+    <EditText
+        android:id="@+id/input_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:hint="@string/task_editor_label_hint"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="1"
+        android:text="@string/task_editor_interval_label"/>
+
+    <net.mhoff.flexibletasks.system.PeriodPicker
+        android:id="@+id/input_interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1">
+    </net.mhoff.flexibletasks.system.PeriodPicker>
+
+</GridLayout>

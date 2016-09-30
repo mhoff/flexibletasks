@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flexible Aufgaben</string>
+    <string name="action_about">Über</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="add_task_dialog_cancel">Abbrechen</string>
+    <string name="add_task_dialog_confirm">Annehmen</string>
+    <string name="add_task_dialog_title">Neue Aufgabe</string>
+    <string name="local_service_started"></string>
+    <string name="period_picker_value_hint">" "</string>
+    <string name="postpone_task_dialog_cancel">Abbrechen</string>
+    <string name="postpone_task_dialog_confirm">Annehmen</string>
+    <string name="postpone_task_dialog_title">Aufgabe verschieben</string>
+    <string name="task_delete_dialog_cancel">Abbrechen</string>
+    <string name="task_delete_dialog_confirm">Löschen</string>
+    <string name="task_delete_dialog_title">Löschen bestätigen</string>
+    <string name="task_editor_interval_label">Intervall</string>
+    <string name="task_editor_label_hint">Aufgabe benennen</string>
+    <string name="task_editor_label_label">Name</string>
+    <string name="task_list_delete_item">Löschen</string>
+    <string name="task_list_disable_item">Deaktivieren</string>
+    <string name="task_list_enable_item">Aktivieren</string>
+    <string name="task_list_execute_item">Erledigt</string>
+    <string name="task_list_item_disabled">Deaktiviert</string>
+    <string name="task_list_postpone_item">Verschieben</string>
+    <string name="task_list_row_description_after">Fällig %s</string>
+    <string name="task_list_row_description_before">Fällig %s</string>
+    <string name="task_delete_dialog_label">Aufgabe %s</string>
+    <string name="task_list_row_description_initial">Neu</string>
+    <string name="task_list_row_label">Aufgabe %s</string>
+    <string name="task_postpone_label">Aufgabe %s</string>
+    <string name="task_postpone_permanent">Permanent</string>
+    <string name="title_activity_about">Über</string>
+    <string-array name="period_picker_units">
+        <item>Sekunden</item>
+        <item>Minuten</item>
+        <item>Stunden</item>
+        <item>Tage</item>
+        <item>Wochen</item>
+        <item>Monate</item>
+        <item>Jahre</item>
+    </string-array>
+</resources>

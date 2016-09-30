@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="6dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <net.mhoff.flexibletasks.StatusIcon
+            android:id="@+id/task_status"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dip"
+            android:layout_marginRight="8dip"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/task_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/task_list_row_label"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/task_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/task_list_row_description_before"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/task_controls"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/task_done"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/task_list_execute_item"/>
+
+        <Button
+            android:id="@+id/task_postpone"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/task_list_postpone_item"/>
+
+        <Button
+            android:id="@+id/task_disable"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/task_list_enable_item"/>
+
+        <Button
+            android:id="@+id/task_enable"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/task_list_disable_item"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/task_delete"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/task_list_delete_item"/>
+
+    </LinearLayout>
+
+</LinearLayout>
